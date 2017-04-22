@@ -1,0 +1,162 @@
+body {
+	background-color: #000;
+	margin: 0px;
+}
+
+p, div {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.active {
+	color: #A5966B;
+}
+
+a:link,
+a:visited {
+	color: #739BC3;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #83ABD3;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+
+/* Header/Content */
+
+	.header {
+		position: relative;
+		padding: 10px 20px;
+		background-color: #2D3036;
+		color: #888888;
+		font-size: 16pt;
+		height: 30px;
+	}
+
+	.content {
+		position: relative;
+	}
+
+
+/* Breadcrumbs */
+
+	.breadcrumbs {
+		position: absolute;
+		left: 140px;
+		top: 10px;
+	}
+
+	.breadcrumbs .crumb {
+		padding-right: 15px;
+	}
+
+
+/* Logo */
+
+	.logo {
+		position: absolute;
+		left: 15px;
+		top: 10px;
+		cursor: pointer;
+	}
+
+
+/* Thumbnails */
+
+	.thumbnails {
+		position: absolute;
+		left: 20px;
+		top: 20px;
+	}
+
+	.thumbnails .thumbnail {
+		position: relative;
+		width: 100px;
+		height: 100px;
+		cursor: pointer;
+		margin: 0px 0px 20px 0px;
+	}
+
+	.thumbnails .unset {
+		color: #444444;
+		text-align: center;
+		width: 100px;
+		cursor: pointer;
+	}
+
+	.thumbnails .unset:hover {
+		background-color: #111;
+	}
+
+
+/* Keypad */
+
+	.keypad {
+		position: absolute;
+		left: 140px;
+		top: 20px;
+		z-index: 0;
+	}
+
+
+/* Passwords */
+
+	.passwords {
+		position: absolute;
+		left: 160px;
+		top: 30px;
+		z-index: 100;
+		color: #888;
+		background-color: black;
+		padding: 40px;
+		height: 300px;
+	}
+
+	.passwords .title {
+		font-family: 'Play', sans-serif;
+		font-size: 24pt;
+		margin-bottom: 30px;
+		color: #59799A;
+	}
+
+	.passwords ul {
+		list-style-type: none;
+		padding-left: 0px;
+	}
+
+	.passwords li.system {
+		display: inline;
+		cursor: pointer;
+		padding: 0px 12px 0px 0px;
+	}
+
+
+/* GridInput */
+
+	.gridInput {
+		float: left;
+		margin-right: 30px;
+	}
+
+	.gridInput input[type="text"] {
+		font-family: 'Open Sans', sans-serif;
+		padding: 5px 20px;
+		background-color: black;
+		border-top: 0px;
+		border-left: 0px;
+		border-right: 0px;
+		border-bottom: solid 1px #243649;
+		color: #59799A;
+		font-size: 18pt;
+	}
+
+	.gridInputPanel {
+		color: #314457;
+		font-size: 10pt;
+		padding: 0px 20px;
+	}
+
